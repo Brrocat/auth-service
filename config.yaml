@@ -1,0 +1,16 @@
+env: "development"
+port: "50051"
+
+database:
+  url: "postgres://auth_user:auth_password@localhost:5432/auth_db?sslmode=disable"
+
+redis:
+  url: "redis://localhost:6379/0"
+
+jwt:
+  private_key_path: "./keys/private.pem"
+  public_key_path: "./keys/public.pem"
+  expiration: "24h"
+
+logging:
+  level: "debug"

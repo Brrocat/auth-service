@@ -1,0 +1,12 @@
+keys/
+.env
+.env.example
+*.log
+bin/
+tmp/
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.config.yaml
